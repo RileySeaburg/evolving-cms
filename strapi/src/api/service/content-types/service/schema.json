@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageName": {
+      "type": "string"
+    },
+    "PageDescription": {
+      "type": "string"
+    },
+    "HeroSection": {
+      "displayName": "Hero Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero-section"
+    },
+    "Industry": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.industry"
+      ]
+    }
+  }
+}

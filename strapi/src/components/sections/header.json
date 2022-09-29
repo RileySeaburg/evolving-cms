@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

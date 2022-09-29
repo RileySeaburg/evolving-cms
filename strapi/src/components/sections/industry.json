@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_industries",
+  "info": {
+    "displayName": "Industry"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
